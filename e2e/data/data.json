@@ -1,0 +1,11 @@
+{
+    "url":"https://test.briqstaging.net",
+    "adults":2,
+    "childs":1,
+    "day":"28",
+    "activityName" : "Test 2",
+    "firstName":"Test",
+    "lastName":"User",
+    "email":"stefan-popovic@outlook.com",
+    "phone":123123123
+}

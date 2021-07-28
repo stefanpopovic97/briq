@@ -1,0 +1,151 @@
+[
+  {
+    "description": "    As a  user\n    I want to be able to search for leisure activities\n    So that i can create booking",
+    "keyword": "Feature",
+    "name": "Create Booking",
+    "line": 1,
+    "id": "create-booking",
+    "tags": [],
+    "uri": "features\\createBooking.feature",
+    "elements": [
+      {
+        "id": "create-booking;create-booking",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Create Booking",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is navigated to the portal page",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user enters number of people to join the activities",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters date for the visit",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 881000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user chooses which activities",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks on the button to add to cart",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user selects time for check in",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters personal information",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user clicks on confirmation button",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the bookings is created successfully",
+            "match": {
+              "location": "steps\\createBooking.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
